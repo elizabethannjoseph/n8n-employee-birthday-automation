@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="8BS-lCJNWT8s9-jTj2hB">
+    <mxGraphModel dx="774" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cgXNfU6jEhy0zQLrD7-F-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="650" width="640" x="150" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="cgXNfU6jEhy0zQLrD7-F-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="" vertex="1">
+          <mxGeometry height="380" width="500" x="220" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="JFlsIQxdEnala8lp5j8Z-1" edge="1" parent="1" source="nj0iykTDBi369wB68IzO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nj0iykTDBi369wB68IzO-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mRz8smRZI_hhI3gNQdv1-2" edge="1" parent="1" source="nj0iykTDBi369wB68IzO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="nj0iykTDBi369wB68IzO-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nj0iykTDBi369wB68IzO-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#EAF3FF);fontColor=light-dark(#000000,#000000);labelBorderColor=none;strokeColor=light-dark(#000000,#000000);" value="&lt;div&gt;Schedule Trigger&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Runs Daily&lt;/div&gt;&lt;div&gt;09:00 AM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="380" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="JFlsIQxdEnala8lp5j8Z-2" edge="1" parent="1" source="nj0iykTDBi369wB68IzO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="cgXNfU6jEhy0zQLrD7-F-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nj0iykTDBi369wB68IzO-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#EAF3FF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="&lt;div&gt;Employee Data&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;employees.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="395" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JFlsIQxdEnala8lp5j8Z-7" edge="1" parent="1" source="nj0iykTDBi369wB68IzO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="cgXNfU6jEhy0zQLrD7-F-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nj0iykTDBi369wB68IzO-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#F2EAFE);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="AI Agent&lt;br&gt;&lt;br&gt;Generates Birthday Message" vertex="1">
+          <mxGeometry height="60" width="160" x="545" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="JFlsIQxdEnala8lp5j8Z-8" edge="1" parent="1" source="cgXNfU6jEhy0zQLrD7-F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="cgXNfU6jEhy0zQLrD7-F-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cgXNfU6jEhy0zQLrD7-F-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#F2EAFE);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Ollama&lt;br&gt;&lt;br&gt;&lt;div&gt;Llama 3.2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="565" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="JFlsIQxdEnala8lp5j8Z-9" edge="1" parent="1" source="cgXNfU6jEhy0zQLrD7-F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="cgXNfU6jEhy0zQLrD7-F-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cgXNfU6jEhy0zQLrD7-F-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#EAFBF0);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="SMTP Service&lt;br&gt;&lt;br&gt;&lt;div&gt;Send Birthday Email&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="565" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="cgXNfU6jEhy0zQLrD7-F-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#EAFBF0);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Employee Receives Birthday Email" vertex="1">
+          <mxGeometry height="60" width="255" x="497.5" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="JFlsIQxdEnala8lp5j8Z-6" edge="1" parent="1" source="cgXNfU6jEhy0zQLrD7-F-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.448;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#000000);" target="cgXNfU6jEhy0zQLrD7-F-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mRz8smRZI_hhI3gNQdv1-1" connectable="0" parent="JFlsIQxdEnala8lp5j8Z-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.8354" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mRz8smRZI_hhI3gNQdv1-6" edge="1" parent="1" source="cgXNfU6jEhy0zQLrD7-F-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.476;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);textOpacity=90;fontColor=light-dark(#000000,#000000);" target="nj0iykTDBi369wB68IzO-4" value="YES">
+          <mxGeometry relative="1" x="0.0001" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cgXNfU6jEhy0zQLrD7-F-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FCF3CF);fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" value="&lt;div&gt;Birthday&lt;/div&gt;&lt;div&gt;Today?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="130" x="405" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cgXNfU6jEhy0zQLrD7-F-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);" value="Docker Environment" vertex="1">
+          <mxGeometry height="30" width="190" x="375" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="cgXNfU6jEhy0zQLrD7-F-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="n8n Workflow" vertex="1">
+          <mxGeometry height="30" width="110" x="415" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="cgXNfU6jEhy0zQLrD7-F-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;div&gt;No Birthday&lt;/div&gt;&lt;div&gt;Detected&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57.5" width="100" x="275" y="632.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
