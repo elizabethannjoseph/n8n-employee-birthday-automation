@@ -1,0 +1,11 @@
+employee_id,name,email,dob,department
+EMP001,John Smith,john.smith@example.com,1998-06-26,Finance
+EMP002,Alice Johnson,alice.johnson@example.com,1996-07-15,Human Resources
+EMP003,Bob Williams,bob.williams@example.com,1995-06-26,Information Technology
+EMP004,Emma Brown,emma.brown@example.com,1999-08-12,Marketing
+EMP005,Michael Davis,michael.davis@example.com,1997-11-04,Sales
+EMP006,Sophia Miller,sophia.miller@example.com,1994-01-22,Operations
+EMP007,David Wilson,david.wilson@example.com,1993-09-18,Research and Development
+EMP008,Olivia Moore,olivia.moore@example.com,1998-03-30,Customer Support
+EMP009,James Taylor,james.taylor@example.com,1992-06-26,Legal
+EMP010,Charlotte Anderson,charlotte.anderson@example.com,1996-12-09,Procurement
