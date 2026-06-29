@@ -1,36 +1,72 @@
-# n8n Employee Birthday Automation
+# Employee Birthday Email Automation
 
-An AI-powered employee birthday email automation workflow built using **n8n**, **Ollama (Llama 3.2)**, **Docker**, and **SMTP**.
+An AI-powered HR automation workflow that automatically sends personalized birthday emails to employees using **n8n**, **Ollama (Llama 3.2)**, **Docker**, and **SMTP**.
+
+---
 
 ## Overview
 
-This project automates the process of sending personalized birthday emails to employees.
+This project automates employee birthday greetings by checking employee records daily, identifying birthdays, generating personalized messages using a locally hosted Large Language Model (LLM), and delivering the emails automatically via SMTP.
 
-The workflow reads employee information from a CSV file, checks whether today's date matches an employee's birthday, generates a personalized birthday message using a locally hosted AI model (Llama 3.2 via Ollama), and sends the email automatically using SMTP.
+The workflow is fully containerized using Docker and does not rely on cloud AI services, making it suitable for local deployment and experimentation.
 
 ---
 
 ## Features
 
-- Daily scheduled execution
-- Reads employee data from a CSV file
-- Identifies birthdays automatically
-- Generates personalized birthday wishes using AI
-- Sends emails automatically via SMTP
-- Runs locally using Ollama (no cloud AI APIs)
+- Daily automated birthday checks
+- Reads employee information from a CSV file
+- Detects birthdays based on the current date
+- Generates personalized birthday messages using Llama 3.2
+- Sends emails automatically through SMTP
 - Docker-based deployment
-- Basic error handling
+- Runs completely locally using Ollama
+- Basic workflow error handling
+
+---
+
+## Architecture
+
+![Architecture](screenshots/architecture.png)
+
+---
+
+## Workflow
+
+The automation follows these steps:
+
+1. Schedule Trigger runs every day.
+2. Employee records are loaded from a CSV file.
+3. The workflow checks whether today's date matches an employee's birthday.
+4. If a birthday is found:
+   - A personalized birthday message is generated using Ollama (Llama 3.2).
+   - The email is sent using SMTP.
+5. If no birthdays are found, the workflow exits.
+
+---
+
+## Screenshots
+
+### n8n Workflow
+
+![Workflow](screenshots/workflow.png)
+
+### Sample Birthday Email
+
+![Email](screenshots/sample-email.png)
 
 ---
 
 ## Technologies Used
 
-- n8n
-- Ollama
-- Llama 3.2
-- Docker
-- SMTP
-- CSV
+| Technology | Purpose |
+|------------|---------|
+| n8n | Workflow automation |
+| Ollama | Local LLM runtime |
+| Llama 3.2 | AI message generation |
+| Docker | Containerized deployment |
+| SMTP | Email delivery |
+| CSV | Employee data storage |
 
 ---
 
@@ -41,49 +77,62 @@ n8n-employee-birthday-automation/
 │
 ├── README.md
 ├── LICENSE
+├── .gitignore
 ├── workflow.json
 │
 ├── data/
 │   └── sample-employees.csv
 │
 ├── docs/
+│   └── architecture.drawio
 │
 └── screenshots/
+    ├── architecture.png
     ├── workflow.png
     └── sample-email.png
 ```
 
 ---
 
-## Workflow
+## Getting Started
 
-1. Schedule Trigger starts every day.
-2. Employee data is read from a CSV file.
-3. The workflow checks if today's date matches an employee's birthday.
-4. If a birthday is found:
-   - AI generates a personalized birthday message.
-   - SMTP sends the email.
-5. If no birthdays are found, the workflow ends.
+### Prerequisites
 
----
+- Docker Desktop
+- n8n
+- Ollama
+- Llama 3.2 model
+- SMTP email account (Gmail or equivalent)
 
-## Screenshots
+### Setup
 
-### Workflow
+1. Clone the repository.
 
-_Add your workflow screenshot here._
+```bash
+git clone https://github.com/elizabethannjoseph/n8n-employee-birthday-automation.git
+```
 
-### Sample Email
+2. Start Docker.
 
-_Add your email screenshot here._
+3. Launch the n8n container.
+
+4. Import `workflow.json`.
+
+5. Configure:
+   - SMTP credentials
+   - Ollama endpoint
+   - Employee CSV file path
+
+6. Activate the workflow.
 
 ---
 
 ## Future Improvements
 
 - HTML email templates
-- HR database integration
 - Microsoft 365 integration
+- HRMS/Database integration
+- Microsoft Defender and Sentinel integration
 - Employee work anniversary automation
 - Logging and reporting dashboard
 
@@ -92,3 +141,9 @@ _Add your email screenshot here._
 ## License
 
 This project is licensed under the MIT License.
+
+---
+
+## Author
+
+**Elizabeth Joseph**
